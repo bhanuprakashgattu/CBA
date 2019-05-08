@@ -5,5 +5,3 @@
  script:
      - clang -coverage -O0 Anusha.c -o Anusha
      - ./Anusha
-     - gcov Anusha.c
-
