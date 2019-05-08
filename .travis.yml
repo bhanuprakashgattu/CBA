@@ -1,17 +1,8 @@
  language: c
  sudo: false # only for faster builds
  compiler: 
-        - clang
-        - gcc
+       - gcc
  script:
-  - clang -coverage -O0 Bhanu.c -o Bhanu
-  - ./Bhanu
-  - gcov hello.c
- //- gcc -o test Bhanu.c // we can use gcc instead of clang too
- //- ./Bhanu
- // - gcc -o test Anusha.c // we can use gcc instead of clang too
- //- ./Anusha
- // - gcc -o test harry.c // we can use gcc instead of clang too
- //- ./harry
- // - gcc -o test pallavi.c // we can use gcc instead of clang too
-// - ./pallavi
+      - gcc -o test Bhanu.c 
+      - ./Bhanu
+ 
