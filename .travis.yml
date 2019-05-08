@@ -1,7 +1,9 @@
  language: c
  sudo: false # only for faster builds
+ compiler:
+     - clang
  script:
-     - clang -coverage -O0 Bhanu.c -o Bhanu
-     - ./Bhanu
-     - gcov Bhanu.c
+     - clang -coverage -O0 Anusha.c -o Anusha
+     - ./Anusha
+     - gcov Anusha.c
 
