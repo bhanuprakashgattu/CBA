@@ -1,3 +1,4 @@
+//To Print Prime numbers
 #include<stdio.h>
 int main()
 {
