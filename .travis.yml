@@ -1,7 +1,7 @@
  language: c
  sudo: false # only for faster builds
  script:
-	  - clang -coverage -O0 Bhanu.c -o Bhanu
-	  - ./Bhanu
-	  - gcov Bhanu.c
+     - clang -coverage -O0 Bhanu.c -o Bhanu
+     - ./Bhanu
+     - gcov Bhanu.c
 
