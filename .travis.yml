@@ -5,3 +5,9 @@
  script:
      - clang -coverage -O0 Anusha.c -o Anusha
      - ./Anusha
+     - clang -coverage -O0 Bhanu.c -o Bhanu
+     - ./Bhanu
+     - clang -coverage -O0 pallavi.c -o pallavi
+     - ./pallavi
+     - clang -coverage -O0 harry.c -o harry
+     - ./harry
