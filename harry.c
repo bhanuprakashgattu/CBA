@@ -1,9 +1,29 @@
-//To Print PRIME NUMBERS
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-int n, i = 3, count, c;
-printf("Enter the number of prime numbers required\n");
-scanf("%d",&n);
-if ( n >= 1 )
-{
+    int n=17, i, flag = 0;
+
+    for(i = 2; i <= n/2; ++i)
+    {
+        // condition for nonprime number
+        if(n%i == 0)
+        {
+            flag = 1;
+            break;
+        }
+    }
+
+    if (n == 1) 
+    {
+      printf("1 is neither a prime nor a composite number.");
+    }
+    else 
+    {
+        if (flag == 0)
+          printf("%d is a prime number.", n);
+        else
+          printf("%d is not a prime number.", n);
+    }
+    
+    return 0;
+}
