@@ -1,8 +1,14 @@
- language: c
- sudo: false # only for faster builds
- compiler: 
-       - gcc
- script:
-      - gcc -o test Bhanu.c 
-      - ./Bhanu
- 
+  language: c  
+  sudo: false # only for faster builds  
+  compiler:
+    - clang
+    - gcc
+  script:  
+    - gcc -o Bhanu Bhanu.c 
+    - ./Bhanu
+    - gcc -o pallavi pallavi.c
+    - ./pallavi
+    - gcc -o Anusha Anusha.c
+    - ./Anusha
+    - gcc -o harry harry.c
+    - ./harry
