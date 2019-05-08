@@ -1,10 +1,7 @@
 #include<stdio.h>
 int main()
 {
- int n, first = 0, second = 1, next, c;
-
-  printf("Enter the number of terms\n");
-  scanf("%d", &n);
+ int n=5, first = 0, second = 1, next, c;
 
   printf("First %d terms of Fibonacci series are:\n", n);
 
