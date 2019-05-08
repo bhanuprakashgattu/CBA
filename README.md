@@ -1,5 +1,5 @@
 # CBA
-#This Project will be the Demo for the CBA Assesment
+
 ##Travis Badge
 travis_ URL - [![Build Status](https://travis-ci.org/bhanuprakashgattu/CBA.svg?branch=master)](https://travis-ci.org/bhanuprakashgattu/CBA)
 
